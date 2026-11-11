@@ -1,9 +1,14 @@
-# Stock Count
 
-This project is used to keep track of the products in the warehouse.
+# stock-count
+The stock count of Selin's warehouse: every product, with its number.
 
-I record the products and how many of each we have in stock.
+## The count
+- The count lives in `count.txt`.
+- One product per line: a name, one space, a number.
+- New products go at the end of the file.
 
-The `count.txt` file lists the product names and their quantities. For example, `Notebook 120` means there are 120 notebooks in stock.
-
-When I change a count, I use a Git commit message to explain what changed and why.
+## How to change it
+1. Open an issue.
+2. Make a branch.
+3. Commit, push, and open a pull request.
+4. Somebody else reviews it before it is merged.
